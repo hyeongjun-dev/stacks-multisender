@@ -122,13 +122,15 @@ function App() {
             >
               <MenuItem value={'STX'} onChange={()=>setTargetToken('STX')}>STX</MenuItem>
               <MenuItem value={'XBTC'} onChange={()=>setTargetToken('XBTC')}>XBTC</MenuItem>
-              <MenuItem value={'ALEX'} onChange={()=>setTargetToken('ALEX')}>ALEX</MenuItem>
+              <MenuItem value={'ALEX_V1'} onChange={()=>setTargetToken('ALEX_V1')}>ALEX v1</MenuItem>
+              <MenuItem value={'ALEX_V2'} onChange={()=>setTargetToken('ALEX_V2')}>ALEX v2</MenuItem>
               <MenuItem value={'DIKO'} onChange={()=>setTargetToken('DIKO')}>DIKO</MenuItem>
               <MenuItem value={'USDA'} onChange={()=>setTargetToken('USDA')}>USDA</MenuItem>
               <MenuItem value={'WELSH'} onChange={()=>setTargetToken('WELSH')}>WELSH</MenuItem>
               <MenuItem value={'NYC'} onChange={()=>setTargetToken('NYC')}>NYC</MenuItem>
               <MenuItem value={'MIA'} onChange={()=>setTargetToken('MIA')}>MIA</MenuItem>
-              <MenuItem value={'SUSDT'} onChange={()=>setTargetToken('SUSDT')}>SUSDT</MenuItem>
+              <MenuItem value={'SUSDT'} onChange={()=>setTargetToken('SUSDT')}>sUSDT</MenuItem>
+              <MenuItem value={'STSTX'} onChange={()=>setTargetToken('STSTX')}>stSTX</MenuItem>
             </Select>
           </FormControl>
         </Box>

@@ -32,10 +32,17 @@ const MAIN_CONTRACT = {
     sendManyFunctionName: 'send-many',
     transferUnit: 1000000,
   },
-  ALEX: {
+  ALEX_V1: {
     ...FUNGIBLE_CONTRACT,
     assetAddress: 'SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9',
     assetContractName: 'age000-governance-token',
+    assetName: 'alex',
+    transferUnit: 100000000
+  },
+  ALEX_V2: {
+    ...FUNGIBLE_CONTRACT,
+    assetAddress: 'SP102V8P0F7JX67ARQ77WEA3D3CFB5XW39REDT0AM',
+    assetContractName: 'token-alex',
     assetName: 'alex',
     transferUnit: 100000000
   },
@@ -87,6 +94,13 @@ const MAIN_CONTRACT = {
     assetContractName: 'token-susdt',
     assetName: 'sUSDT',
     transferUnit: 100000000
+  },
+  STSTX: {
+    ...FUNGIBLE_CONTRACT,
+    assetAddress: 'SP4SZE494VC2YC5JYG7AYFQ44F5Q4PYV7DVMDPBG',
+    assetContractName: 'ststx-token',
+    assetName: 'ststx',
+    transferUnit: 1000000
   },
 }
 
