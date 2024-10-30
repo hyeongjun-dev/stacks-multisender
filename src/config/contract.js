@@ -115,7 +115,7 @@ const MAIN_CONTRACT = {
     ...FUNGIBLE_CONTRACT,
     assetAddress: 'SP25K3XPVBNWXPMYDXBPSZHGC8APW0Z21CWJ3Y3B1',
     assetContractName: 'wen-nakamoto-stxcity',
-    assetName: 'wen',
+    assetName: 'WEN',
     transferUnit: 1000000
   },
 }
