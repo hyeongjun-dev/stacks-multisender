@@ -29,7 +29,7 @@ const TEST_CONTRACT = {
     sendManyFunctionName: 'multi-send',
     assetAddress: 'ST208QJAQRQYV706AM7S55W0NM9YKRQN2C2WPSWE8',
     assetContractName: 'wen-nakamoto-stxcity',
-    assetName: 'wen',
+    assetName: 'WEN',
     transferUnit: 1000000
   },
 }
