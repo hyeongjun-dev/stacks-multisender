@@ -102,6 +102,13 @@ const MAIN_CONTRACT = {
     assetName: 'ststx',
     transferUnit: 1000000
   },
+  WEN: {
+    ...FUNGIBLE_CONTRACT,
+    assetAddress: 'SP25K3XPVBNWXPMYDXBPSZHGC8APW0Z21CWJ3Y3B1',
+    assetContractName: 'wen-nakamoto-stxcity',
+    assetName: 'wen',
+    transferUnit: 1000000
+  },
 }
 
 // export const CONTRACT_ADDRESS = testnet ? TEST_CONTRACT_ADDRESS : MAIN_CONTRACT_ADDRESS;
