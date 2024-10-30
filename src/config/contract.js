@@ -4,6 +4,12 @@ import {noneCV, standardPrincipalCV, tupleCV, uintCV} from "@stacks/transactions
 
 export const MAX_SEND_SIZE = 200;
 
+const FUNGIBLE_CONTRACT = {
+  contractAddress: 'SP1W7X92JG1BYPKG15KTS6398XN4D4HJP9TTXMQ38',
+  contractName: 'multi-send',
+  sendManyFunctionName: 'multi-send'
+}
+
 const TEST_CONTRACT = {
   STX: {
     contractAddress: 'STK42M5PXE9MHC8JYCK491YRNEK8E94HTGF7JMZ5',
@@ -16,13 +22,16 @@ const TEST_CONTRACT = {
       });
     },
     transferUnit: 1000000,
-  }
-}
-
-const FUNGIBLE_CONTRACT = {
-  contractAddress: 'SP1W7X92JG1BYPKG15KTS6398XN4D4HJP9TTXMQ38',
-  contractName: 'multi-send',
-  sendManyFunctionName: 'multi-send'
+  },
+  WEN: {
+    contractAddress: 'ST208QJAQRQYV706AM7S55W0NM9YKRQN2C2WPSWE8',
+    contractName: 'multi-send',
+    sendManyFunctionName: 'multi-send',
+    assetAddress: 'ST208QJAQRQYV706AM7S55W0NM9YKRQN2C2WPSWE8',
+    assetContractName: 'wen-nakamoto-stxcity',
+    assetName: 'wen',
+    transferUnit: 1000000
+  },
 }
 
 const MAIN_CONTRACT = {
