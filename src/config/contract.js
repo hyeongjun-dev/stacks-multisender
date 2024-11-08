@@ -118,6 +118,13 @@ const MAIN_CONTRACT = {
     assetName: 'WEN',
     transferUnit: 1000000
   },
+  STSW: {
+    ...FUNGIBLE_CONTRACT,
+    assetAddress: 'SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275',
+    assetContractName: 'stsw-token-v4a',
+    assetName: 'STSW',
+    transferUnit: 1000000
+  },
 }
 
 // export const CONTRACT_ADDRESS = testnet ? TEST_CONTRACT_ADDRESS : MAIN_CONTRACT_ADDRESS;
