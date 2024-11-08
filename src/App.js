@@ -132,7 +132,7 @@ function App() {
               <MenuItem value={'SUSDT'} onChange={()=>setTargetToken('SUSDT')}>sUSDT</MenuItem>
               <MenuItem value={'STSTX'} onChange={()=>setTargetToken('STSTX')}>stSTX</MenuItem>
               <MenuItem value={'WEN'} onChange={()=>setTargetToken('WEN')}>WEN</MenuItem>
-              <MenuItem value={'STSW'} onChange={()=>setTargetToken('STSW')}>WEN</MenuItem>
+              <MenuItem value={'STSW'} onChange={()=>setTargetToken('STSW')}>STSW</MenuItem>
             </Select>
           </FormControl>
         </Box>
